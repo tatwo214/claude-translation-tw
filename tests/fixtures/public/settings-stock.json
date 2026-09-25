@@ -1,0 +1,3131 @@
+{
+  "resume-privacy-shapes.txt": {
+    "sha256": "c032f39929e3f7e38752365a0e5f8029a1328ba7f298aec24af973aafe363c8d",
+    "data": {
+      "shapes": [
+        {
+          "text": "Privacy Center",
+          "tag": "A",
+          "cls": "cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-secondary",
+          "parents": [
+            {
+              "tag": "P",
+              "cls": "text-body text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex flex-col gap-sm",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex flex-col gap-md pb-xl",
+              "role": null,
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Privacy Policy",
+          "tag": "A",
+          "cls": "cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-secondary",
+          "parents": [
+            {
+              "tag": "P",
+              "cls": "text-body text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex flex-col gap-sm",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex flex-col gap-md pb-xl",
+              "role": null,
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "How we protect your data",
+          "tag": "SPAN",
+          "cls": "text-body text-primary",
+          "parents": [
+            {
+              "tag": "BUTTON",
+              "cls": "cds-reset flex w-full items-center justify-between gap-lg rounded py-md text-left outline-none focus-visible:shadow-focus",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "divide-y divide-alpha-1",
+              "role": null,
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "How we use your data",
+          "tag": "SPAN",
+          "cls": "text-body text-primary",
+          "parents": [
+            {
+              "tag": "BUTTON",
+              "cls": "cds-reset flex w-full items-center justify-between gap-lg rounded py-md text-left outline-none focus-visible:shadow-focus",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "divide-y divide-alpha-1",
+              "role": null,
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Location metadata",
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Learn more",
+          "tag": "A",
+          "cls": "cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-secondary",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-muted",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Help improve our AI models",
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Learn more",
+          "tag": "A",
+          "cls": "cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-secondary",
+          "parents": [
+            {
+              "tag": "SPAN",
+              "cls": "",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SPAN",
+              "cls": "flex flex-col gap-xs",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "text-body text-muted",
+              "role": null,
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Your data",
+          "tag": "H3",
+          "cls": "text-heading-semibold text-primary settings-row-title self-start outline-none",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-col gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "mb-md flex items-start justify-between gap-lg",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SECTION",
+              "cls": "mb-xl last:mb-0 ",
+              "role": null,
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Export data",
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Export data",
+          "tag": "SPAN",
+          "cls": "inline-flex min-w-0 items-center gap-1 ",
+          "parents": [
+            {
+              "tag": "BUTTON",
+              "cls": "cds-reset group/btn relative isolate inline-flex shrink-0 items-center justify-center gap-1.5 whitespace-nowrap select-none cursor-[var(--cds-cursor-interactive)] aria-disabled:cursor-default data-[disabled]:cursor-default border-0 outline-none focus-visible:outline-hidden [&[data-initial-focus]:focus]:outline-hidden rounded h-control font-sans text-body [&:disabled:not([aria-busy])]:opacity-disabled disabled:pointer-events-none transition-shadow duration-fast text-primary font-normal aria-pressed:text-accent focus-visible:shadow-focus [&[data-initial-focus]:focus]:shadow-focus px-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex shrink-0 items-center",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Shared chats",
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Shared artifacts",
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Uploaded files",
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "resume-capabilities-shapes.txt": {
+    "sha256": "b305c07386dd932ce69f6e850802ef75d772cc25c5dc6bb4b81f06b95eb59e5d",
+    "data": {
+      "shapes": [
+        {
+          "text": "Tool access mode",
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Connector search",
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Switch models when a message is flagged",
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Visuals",
+          "tag": "H3",
+          "cls": "text-heading-semibold text-primary settings-row-title self-start outline-none",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-col gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "mb-md flex items-start justify-between gap-lg",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SECTION",
+              "cls": "mb-xl last:mb-0 ",
+              "role": null,
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Artifacts",
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "AI-powered artifacts",
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Inline visualizations",
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "settings-resume-privacy-fragments-valid.txt": {
+    "sha256": "fee54896aa3ceafdeff78662bfd376170f8eb4e4dd29778c82086eab90059fce",
+    "data": {
+      "targets": [
+        {
+          "text": "Location metadata",
+          "ancestors": [
+            {
+              "tag": "SPAN",
+              "cls": "settings-row-title inline-block align-top",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SECTION",
+              "cls": "mb-xl last:mb-0 ",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex flex-col ",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-auto px-xl pb-lg pt-2 [scrollbar-gutter:stable] [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+              "role": "dialog",
+              "test": null
+            }
+          ]
+        }
+      ],
+      "nav": [
+        {
+          "test": "general-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "account-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "data-privacy-controls",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer bg-fill-ghost-selected font-medium text-primary",
+              "selected": null,
+              "current": "page",
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "billing-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "usage-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "memory-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "design-systems-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "claude-code-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "customize-skills-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "customize-connectors-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "customize-plugins-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        }
+      ],
+      "fragments": [
+        {
+          "ancestors": [
+            {
+              "tag": "P",
+              "cls": "text-body text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex flex-col gap-sm",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex flex-col gap-md pb-xl",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex flex-col ",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-auto px-xl pb-lg pt-2 [scrollbar-gutter:stable] [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+              "role": "dialog",
+              "test": null
+            }
+          ],
+          "children": [
+            {
+              "text": "Anthropic believes in transparent data practices"
+            },
+            {
+              "text": ". "
+            },
+            {
+              "text": "Learn how your information is protected when using Anthropic products, and visit our "
+            },
+            {
+              "tag": "A",
+              "cls": "cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-secondary",
+              "role": null,
+              "test": null,
+              "text": "Privacy Center",
+              "pathname": "/"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "tag": "A",
+              "cls": "cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-secondary",
+              "role": null,
+              "test": null,
+              "text": "Privacy Policy",
+              "pathname": "/legal/privacy"
+            },
+            {
+              "text": " for more details."
+            }
+          ]
+        },
+        {
+          "ancestors": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-muted",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SECTION",
+              "cls": "mb-xl last:mb-0 ",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex flex-col ",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-auto px-xl pb-lg pt-2 [scrollbar-gutter:stable] [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+              "role": "dialog",
+              "test": null
+            }
+          ],
+          "children": [
+            {
+              "text": "Allow Claude to use coarse location metadata (city/region) to improve product experiences. "
+            },
+            {
+              "tag": "A",
+              "cls": "cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-secondary",
+              "role": null,
+              "test": null,
+              "text": "Learn more",
+              "pathname": "/en/articles/11186740-does-claude-use-my-location"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "ancestors": [
+            {
+              "tag": "SPAN",
+              "cls": "",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SPAN",
+              "cls": "flex flex-col gap-xs",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "text-body text-muted",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative",
+              "role": "group",
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SECTION",
+              "cls": "mb-xl last:mb-0 ",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex flex-col ",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-auto px-xl pb-lg pt-2 [scrollbar-gutter:stable] [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+              "role": "dialog",
+              "test": null
+            }
+          ],
+          "children": [
+            {
+              "text": "Allow the use of your chats and coding sessions to train and improve Anthropic AI models. "
+            },
+            {
+              "tag": "A",
+              "cls": "cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-secondary",
+              "role": null,
+              "test": null,
+              "text": "Learn more",
+              "pathname": "/en/articles/12109829-how-do-i-change-my-model-improvement-privacy-settings"
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "settings-resume-capabilities-fragments-valid.txt": {
+    "sha256": "9143b656f2ff86776f47388de8b479cd094f903bf406d8679f9cd25d1082f302",
+    "data": {
+      "targets": [
+        {
+          "text": "Tool access mode",
+          "ancestors": [
+            {
+              "tag": "SPAN",
+              "cls": "settings-row-title inline-block align-top",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SECTION",
+              "cls": "mb-xl last:mb-0 ",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "MAIN",
+              "cls": "flex flex-col pb-10",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-auto px-xl pb-lg pt-2 [scrollbar-gutter:stable] [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+              "role": "dialog",
+              "test": null
+            }
+          ]
+        }
+      ],
+      "nav": [
+        {
+          "test": "general-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "account-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "data-privacy-controls",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "billing-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "usage-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "memory-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "design-systems-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "claude-code-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "customize-skills-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "customize-connectors-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "customize-plugins-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        }
+      ],
+      "fragments": [
+        {
+          "ancestors": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-muted",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SECTION",
+              "cls": "mb-xl last:mb-0 ",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "MAIN",
+              "cls": "flex flex-col pb-10",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-auto px-xl pb-lg pt-2 [scrollbar-gutter:stable] [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+              "role": "dialog",
+              "test": null
+            }
+          ],
+          "children": [
+            {
+              "text": "Controls how connector tools are loaded in new conversations."
+            }
+          ]
+        },
+        {
+          "ancestors": [
+            {
+              "tag": "SPAN",
+              "cls": "min-w-0 flex-1 truncate",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "BUTTON",
+              "cls": "cds-reset flex min-w-0 flex-1 items-center gap-1.5 self-stretch pl-sm text-left border-0 bg-transparent p-0 outline-none focus-visible:outline-hidden",
+              "role": "combobox",
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "cds-reset group/cbx inline-flex items-center gap-1.5 h-control rounded font-sans text-body font-normal text-primary outline-none focus-visible:outline-hidden transition duration-fast data-[disabled]:opacity-disabled data-[disabled]:pointer-events-none bg-transparent hover:bg-fill-ghost-hover has-[[aria-haspopup][aria-expanded=true]]:bg-fill-ghost-hover aria-expanded:bg-fill-ghost-hover pl-0 has-[:focus-visible]:shadow-focus data-[disabled]:cursor-default pr-sm shrink-0",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex shrink-0 items-center",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SECTION",
+              "cls": "mb-xl last:mb-0 ",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "MAIN",
+              "cls": "flex flex-col pb-10",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-auto px-xl pb-lg pt-2 [scrollbar-gutter:stable] [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+              "role": "dialog",
+              "test": null
+            }
+          ],
+          "children": [
+            {
+              "text": "Load tools when needed"
+            }
+          ]
+        },
+        {
+          "ancestors": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-muted",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SECTION",
+              "cls": "mb-xl last:mb-0 ",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "MAIN",
+              "cls": "flex flex-col pb-10",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-auto px-xl pb-lg pt-2 [scrollbar-gutter:stable] [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+              "role": "dialog",
+              "test": null
+            }
+          ],
+          "children": [
+            {
+              "text": "Let Claude search the connector directory and surface ones relevant to your conversation."
+            }
+          ]
+        },
+        {
+          "ancestors": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-muted",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SECTION",
+              "cls": "mb-xl last:mb-0 ",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "MAIN",
+              "cls": "flex flex-col pb-10",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-auto px-xl pb-lg pt-2 [scrollbar-gutter:stable] [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+              "role": "dialog",
+              "test": null
+            }
+          ],
+          "children": [
+            {
+              "text": "When safeguards flag a message, automatically switch to a different model to keep chatting. When off, your chat will pause instead."
+            }
+          ]
+        },
+        {
+          "ancestors": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-muted",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SECTION",
+              "cls": "mb-xl last:mb-0 ",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "MAIN",
+              "cls": "flex flex-col pb-10",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-auto px-xl pb-lg pt-2 [scrollbar-gutter:stable] [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+              "role": "dialog",
+              "test": null
+            }
+          ],
+          "children": [
+            {
+              "text": "Build apps and interactive documents that use Claude inside the artifact."
+            }
+          ]
+        },
+        {
+          "ancestors": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-muted",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SECTION",
+              "cls": "mb-xl last:mb-0 ",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "MAIN",
+              "cls": "flex flex-col pb-10",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-auto px-xl pb-lg pt-2 [scrollbar-gutter:stable] [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+              "role": "dialog",
+              "test": null
+            }
+          ],
+          "children": [
+            {
+              "text": "Allow Claude to generate interactive visualizations, charts, and diagrams directly in the conversation."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "settings-memory-stock-valid.txt": {
+    "sha256": "009c1a15390d26ec061eed7951f60981442b59a2a0e168746147d30bdf417310",
+    "data": {
+      "rows": [
+        {
+          "text": "Search and reference chats",
+          "ancestors": [
+            {
+              "tag": "SPAN",
+              "cls": "settings-row-title inline-block align-top",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SECTION",
+              "cls": "mb-xl last:mb-0 !mb-0 px-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "-ml-[calc(var(--cds-pad-lg)+var(--cds-pad-md)-var(--cds-pad-xl))] flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 flex-1 flex-col overflow-y-auto px-lg pb-lg scroll-fade-y scroll-fade-size-12 [--cds-scroll-fade-top:min(calc(var(--cds-scroll-fade-top-raw)*var(--cds-scroll-fade-y-active)),calc(var(--spacing)*6))] [scroll-padding-block-start:calc(var(--spacing)*6)]",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex h-full min-h-0 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-hidden [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+              "role": "dialog",
+              "test": null
+            }
+          ],
+          "descriptions": [
+            {
+              "ancestors": [
+                {
+                  "tag": "DIV",
+                  "cls": "text-body text-muted",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex items-center justify-between gap-lg py-md  ",
+                  "role": "group",
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "SECTION",
+                  "cls": "mb-xl last:mb-0 !mb-0 px-md",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "-ml-[calc(var(--cds-pad-lg)+var(--cds-pad-md)-var(--cds-pad-xl))] flex min-h-0 flex-1 flex-col",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex min-h-0 flex-1 flex-col overflow-y-auto px-lg pb-lg scroll-fade-y scroll-fade-size-12 [--cds-scroll-fade-top:min(calc(var(--cds-scroll-fade-top-raw)*var(--cds-scroll-fade-y-active)),calc(var(--spacing)*6))] [scroll-padding-block-start:calc(var(--spacing)*6)]",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex h-full min-h-0 flex-col",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "contents",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-hidden [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "relative flex min-h-0 flex-1 flex-col",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "contents",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+                  "role": "dialog",
+                  "test": null
+                }
+              ],
+              "children": [
+                {
+                  "text": "Allow Claude to search for relevant details in past chats. "
+                },
+                {
+                  "tag": "A",
+                  "cls": "cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-inherit",
+                  "role": null,
+                  "test": null,
+                  "text": "Learn more"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Generate memory from chats",
+          "ancestors": [
+            {
+              "tag": "SPAN",
+              "cls": "settings-row-title inline-block align-top",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SECTION",
+              "cls": "mb-xl last:mb-0 !mb-0 px-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "-ml-[calc(var(--cds-pad-lg)+var(--cds-pad-md)-var(--cds-pad-xl))] flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 flex-1 flex-col overflow-y-auto px-lg pb-lg scroll-fade-y scroll-fade-size-12 [--cds-scroll-fade-top:min(calc(var(--cds-scroll-fade-top-raw)*var(--cds-scroll-fade-y-active)),calc(var(--spacing)*6))] [scroll-padding-block-start:calc(var(--spacing)*6)]",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex h-full min-h-0 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-hidden [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+              "role": "dialog",
+              "test": null
+            }
+          ],
+          "descriptions": [
+            {
+              "ancestors": [
+                {
+                  "tag": "DIV",
+                  "cls": "text-body text-muted",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex items-center justify-between gap-lg py-md  ",
+                  "role": "group",
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "SECTION",
+                  "cls": "mb-xl last:mb-0 !mb-0 px-md",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "-ml-[calc(var(--cds-pad-lg)+var(--cds-pad-md)-var(--cds-pad-xl))] flex min-h-0 flex-1 flex-col",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex min-h-0 flex-1 flex-col overflow-y-auto px-lg pb-lg scroll-fade-y scroll-fade-size-12 [--cds-scroll-fade-top:min(calc(var(--cds-scroll-fade-top-raw)*var(--cds-scroll-fade-y-active)),calc(var(--spacing)*6))] [scroll-padding-block-start:calc(var(--spacing)*6)]",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex h-full min-h-0 flex-col",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "contents",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-hidden [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "relative flex min-h-0 flex-1 flex-col",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "contents",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+                  "role": "dialog",
+                  "test": null
+                }
+              ],
+              "children": [
+                {
+                  "text": "Allow Claude to generate memory from your chats."
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "tag": "A",
+                  "cls": "cds-reset cds-text-link cds-text-link-underline inline text-inherit [transition-property:text-decoration-color,box-shadow] cursor-pointer",
+                  "role": null,
+                  "test": null,
+                  "text": "Learn more(opens in new tab)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Include sensitive topics in memory",
+          "ancestors": [
+            {
+              "tag": "SPAN",
+              "cls": "settings-row-title inline-block align-top",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SECTION",
+              "cls": "mb-xl last:mb-0 !mb-0 px-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "-ml-[calc(var(--cds-pad-lg)+var(--cds-pad-md)-var(--cds-pad-xl))] flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 flex-1 flex-col overflow-y-auto px-lg pb-lg scroll-fade-y scroll-fade-size-12 [--cds-scroll-fade-top:min(calc(var(--cds-scroll-fade-top-raw)*var(--cds-scroll-fade-y-active)),calc(var(--spacing)*6))] [scroll-padding-block-start:calc(var(--spacing)*6)]",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex h-full min-h-0 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-hidden [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+              "role": "dialog",
+              "test": null
+            }
+          ],
+          "descriptions": [
+            {
+              "ancestors": [
+                {
+                  "tag": "DIV",
+                  "cls": "text-body text-muted",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex items-center justify-between gap-lg py-md  ",
+                  "role": "group",
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "SECTION",
+                  "cls": "mb-xl last:mb-0 !mb-0 px-md",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "-ml-[calc(var(--cds-pad-lg)+var(--cds-pad-md)-var(--cds-pad-xl))] flex min-h-0 flex-1 flex-col",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex min-h-0 flex-1 flex-col overflow-y-auto px-lg pb-lg scroll-fade-y scroll-fade-size-12 [--cds-scroll-fade-top:min(calc(var(--cds-scroll-fade-top-raw)*var(--cds-scroll-fade-y-active)),calc(var(--spacing)*6))] [scroll-padding-block-start:calc(var(--spacing)*6)]",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex h-full min-h-0 flex-col",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "contents",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-hidden [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "relative flex min-h-0 flex-1 flex-col",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "contents",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+                  "role": "dialog",
+                  "test": null
+                }
+              ],
+              "children": [
+                {
+                  "tag": "SPAN",
+                  "cls": "sr-only",
+                  "role": "status",
+                  "test": null,
+                  "text": ""
+                },
+                {
+                  "text": "Allow Claude to save details about sensitive topics like health conditions or religious beliefs to memory."
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "tag": "A",
+                  "cls": "cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-inherit",
+                  "role": null,
+                  "test": null,
+                  "text": "Learn more"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Import memory from other AI providers",
+          "ancestors": [
+            {
+              "tag": "SPAN",
+              "cls": "settings-row-title inline-block align-top",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SECTION",
+              "cls": "mb-xl last:mb-0 !mb-0 px-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "-ml-[calc(var(--cds-pad-lg)+var(--cds-pad-md)-var(--cds-pad-xl))] flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 flex-1 flex-col overflow-y-auto px-lg pb-lg scroll-fade-y scroll-fade-size-12 [--cds-scroll-fade-top:min(calc(var(--cds-scroll-fade-top-raw)*var(--cds-scroll-fade-y-active)),calc(var(--spacing)*6))] [scroll-padding-block-start:calc(var(--spacing)*6)]",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex h-full min-h-0 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-hidden [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+              "role": "dialog",
+              "test": null
+            }
+          ],
+          "descriptions": [
+            {
+              "ancestors": [
+                {
+                  "tag": "DIV",
+                  "cls": "text-body text-muted",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex items-center justify-between gap-lg py-md  ",
+                  "role": "group",
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "SECTION",
+                  "cls": "mb-xl last:mb-0 !mb-0 px-md",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "-ml-[calc(var(--cds-pad-lg)+var(--cds-pad-md)-var(--cds-pad-xl))] flex min-h-0 flex-1 flex-col",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex min-h-0 flex-1 flex-col overflow-y-auto px-lg pb-lg scroll-fade-y scroll-fade-size-12 [--cds-scroll-fade-top:min(calc(var(--cds-scroll-fade-top-raw)*var(--cds-scroll-fade-y-active)),calc(var(--spacing)*6))] [scroll-padding-block-start:calc(var(--spacing)*6)]",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex h-full min-h-0 flex-col",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "contents",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-hidden [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "relative flex min-h-0 flex-1 flex-col",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "contents",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+                  "role": null,
+                  "test": null
+                },
+                {
+                  "tag": "DIV",
+                  "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+                  "role": "dialog",
+                  "test": null
+                }
+              ],
+              "children": [
+                {
+                  "tag": "SPAN",
+                  "cls": "sr-only",
+                  "role": "status",
+                  "test": null,
+                  "text": ""
+                },
+                {
+                  "text": "Bring relevant context and data from another AI provider to Claude. We'll provide a prompt you can use to fetch the memory from your other account."
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "tag": "A",
+                  "cls": "cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-inherit",
+                  "role": null,
+                  "test": null,
+                  "text": "Learn more"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "settings-resume-memory-shapes-valid.txt": {
+    "sha256": "e1355b97fa2bc14a3804388e6cd232acfaf13964cd61a77accab03df37cdae6f",
+    "data": {
+      "shapes": [
+        {
+          "text": "Search and reference chats",
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Learn more",
+          "tag": "A",
+          "cls": "cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-inherit",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-muted",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Generate memory from chats",
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Include sensitive topics in memory",
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Learn more",
+          "tag": "A",
+          "cls": "cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-inherit",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-muted",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Import memory from other AI providers",
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-primary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Learn more",
+          "tag": "A",
+          "cls": "cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-inherit",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "text-body text-muted",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        },
+        {
+          "text": "Start import",
+          "tag": "SPAN",
+          "cls": "inline-flex min-w-0 items-center gap-1 ",
+          "parents": [
+            {
+              "tag": "BUTTON",
+              "cls": "cds-reset group/btn relative isolate inline-flex shrink-0 items-center justify-center gap-1.5 whitespace-nowrap select-none cursor-[var(--cds-cursor-interactive)] aria-disabled:cursor-default data-[disabled]:cursor-default border-0 outline-none focus-visible:outline-hidden [&[data-initial-focus]:focus]:outline-hidden rounded h-control font-sans text-body [&:disabled:not([aria-busy])]:opacity-disabled disabled:pointer-events-none transition-shadow duration-fast text-primary font-normal aria-pressed:text-accent focus-visible:shadow-focus [&[data-initial-focus]:focus]:shadow-focus px-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex shrink-0 items-center",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex items-center justify-between gap-lg py-md  ",
+              "role": "group",
+              "test": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "settings-memory-selected-nav.txt": {
+    "sha256": "6d05f96fa4ffe864a938d427375d6500a8b73d5354fb40bf1feff107346a1a66",
+    "data": {
+      "nav": [
+        {
+          "text": "記憶",
+          "tag": "BUTTON",
+          "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer bg-fill-ghost-selected font-medium text-primary",
+          "attrs": [
+            [
+              "aria-current",
+              "page"
+            ]
+          ],
+          "ancestors": [
+            {
+              "tag": "LI",
+              "cls": "",
+              "test": "memory-settings",
+              "role": null
+            },
+            {
+              "tag": "UL",
+              "cls": "flex flex-col gap-px",
+              "test": null,
+              "role": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 flex-1 flex-col gap-sm overflow-y-auto scroll-fade-y scroll-fade-size-6 px-md pb-md",
+              "test": null,
+              "role": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "settings-desktop-connected-shapes.txt": {
+    "sha256": "149f219628eeab4de7a21f96e3296e9e73c92af4ccedce24edd557d07de76237",
+    "data": {
+      "shapes": [
+        {
+          "text": "Connected browsers",
+          "tag": "DIV",
+          "cls": "text-sm text-secondary",
+          "parents": [
+            {
+              "tag": "DIV",
+              "cls": "flex flex-col gap-2",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SECTION",
+              "cls": "mb-xl last:mb-0 ",
+              "role": null,
+              "test": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "settings-connected-ancestors-valid.txt": {
+    "sha256": "791e11ded56491c990309f3fcacb35fa649ff8c9762d36bef2f80d4eb4ef07ec",
+    "data": {
+      "targets": [
+        {
+          "text": "Connected browsers",
+          "ancestors": [
+            {
+              "tag": "DIV",
+              "cls": "text-sm text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex flex-col gap-2",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "SECTION",
+              "cls": "mb-xl last:mb-0 ",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "MAIN",
+              "cls": "flex flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative min-h-0 flex-1 overflow-x-hidden overflow-y-auto px-xl pb-lg pt-2 [scrollbar-gutter:stable] [&_[data-settings-section]]:gap-4 [&_[data-settings-section]]:mb-4 [&_[data-settings-section]]:pb-4 [&_[data-settings-section-title]]:text-heading-medium [&_[data-settings-primary-text]]:text-body [&_[data-settings-section-subtitle]]:text-footnote [&_[data-settings-section-subtitle]]:text-secondary",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "relative flex min-h-0 flex-1 flex-col",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "contents",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "flex min-h-0 min-w-0 flex-1 flex-col bg-surface-2",
+              "role": null,
+              "test": null
+            },
+            {
+              "tag": "DIV",
+              "cls": "draggable-none after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:bg-backdrop after:opacity-0 after:z-50 after:transition-opacity after:duration-base after:ease-out data-[nested-dialog-open]:after:opacity-100 fixed inset-0 m-auto flex h-[calc(100dvh-2rem)] max-h-[50rem] w-[calc(100vw-2rem)] max-w-[1024px] overflow-hidden dark:border dark:border-alpha-1 rounded-card bg-surface-2 shadow-panel-sm cds-reset text-body text-primary outline-none transition-[opacity,scale] duration-base ease-out motion-reduce:transition-none data-[starting-style]:opacity-0 data-[starting-style]:scale-[0.98] motion-reduce:data-[starting-style]:scale-100 data-[ending-style]:opacity-0 data-[ending-style]:scale-[0.98]",
+              "role": "dialog",
+              "test": null
+            }
+          ]
+        }
+      ],
+      "nav": [
+        {
+          "test": "general-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "account-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "data-privacy-controls",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "billing-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "usage-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "memory-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "design-systems-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "claude-code-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "customize-skills-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "customize-connectors-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        },
+        {
+          "test": "customize-plugins-settings",
+          "selected": null,
+          "current": null,
+          "state": null,
+          "buttons": [
+            {
+              "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer text-secondary hover:bg-fill-ghost-hover hover:text-primary",
+              "selected": null,
+              "current": null,
+              "state": null
+            }
+          ]
+        }
+      ],
+      "fragments": []
+    }
+  },
+  "settings-capabilities-nav-leaves.txt": {
+    "sha256": "b6a6aad946c0bce83bb765487f5ea76c14f6d5a918469d103dc71c2f874fb601",
+    "data": {
+      "selected": [
+        {
+          "tag": "BUTTON",
+          "cls": "flex h-control w-full items-center gap-sm rounded px-sm text-left text-body cursor-pointer bg-fill-ghost-selected font-medium text-primary",
+          "children": [
+            {
+              "tag": "SPAN",
+              "cls": "shrink-0 text-secondary",
+              "role": null,
+              "hidden": "true",
+              "text": "",
+              "children": [
+                {
+                  "type": 3,
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "tag": "SPAN",
+              "cls": "min-w-0 flex-1 truncate",
+              "role": null,
+              "hidden": null,
+              "text": "能力",
+              "children": [
+                {
+                  "type": 3,
+                  "text": "能力"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

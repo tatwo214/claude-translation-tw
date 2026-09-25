@@ -9,3 +9,6 @@ claude-tw/menubar-bin
 ClaudeTW.app/
 dist/
 coverage/
+
+evidence/
+staging/

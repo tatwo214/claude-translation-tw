@@ -1,83 +1,53 @@
-# Claude 繁體中文補丁
+# ClaudeTW v2：離線預載繁中
 
-這是一個給 macOS Claude 桌面版使用的繁體中文 UI 翻譯層。
+macOS Claude 桌面版（含 Code 分頁）的非官方本機翻譯層；不是終端機 Claude Code，也不涵蓋 iOS 原生 App。
 
-本專案會補丁你自己 Mac 上已安裝的 `/Applications/Claude.app`。這個 repo 不包含、也不重新散佈 Claude.app、`app.asar`、Anthropic 原始碼、帳號資料、截圖、log、備份或任何本機 runtime 狀態。
+## 這次改什麼
 
-## 功能
+- 在主視圖的隔離預載環境取得本機字典，不等 `dom-ready`、HTTP 或 Google 翻譯。
+- 既有字典持久儲存於 `overrides.json` → `snapshot.json`；預先載入全部字典，畫面建立時只查表。
+- 新增／更新的 DOM 區塊在 MutationObserver 回呼套用，沒有 150ms 延遲、全頁輪詢、遮住整頁或逐句遠端翻譯。
+- 僅處理已知介面文字；不保存聊天、草稿、檔案路徑或整塊畫面。未知文字只在記憶體去重，磁碟回報只有數量。
+- 選單列只保留「翻譯檢索」「更新」「GitHub」三項。開 Claude 後既有喚醒服務會啟動小工具（通常數秒；依系統排程）；字典預載不等小工具。
+- Tiptap 輸入框提示用 head 中的 CSS 翻譯，不改可編輯區的文字或 data-placeholder。
+- 關閉翻譯能還原仍由本工具持有的文字；React 已更新的節點不還原成過期內容。
 
-- 將 DOM 翻譯層注入 Claude 主要的 `claude.ai` Electron 視窗。
-- 將系統 UI 翻成台灣繁體中文。
-- 保留 `Claude`、`Cowork`、`Skills`、`Model` 與模型名稱等產品術語。
-- 避免翻譯聊天內容、使用者輸入、提示正文、程式碼區塊、檔案路徑、URL、token、模型 id、最近/歷史標題。
-- 提供 macOS 選單列小工具，可切換翻譯/取消翻譯。
-- 提供 LaunchAgent，開啟 Claude 時自動喚醒選單列小工具。
+## 改版邊界
 
-## 需求
+以已核准的 App 版本與 ASAR SHA256 比對；不符則停止套用、提示需檢查。遠端網頁更新但 App 版本沒變時，僅繼續套用符合文字與 UI 範圍的條目，未知字保留原文。這不是任意改版都自動相容的保證。
 
-- macOS
-- Claude 桌面版已安裝在 `/Applications/Claude.app`
-- `PATH` 中可使用 Node.js
-- 已安裝 Xcode Command Line Tools，可使用 `xcrun swiftc`
+「重新整合」會重新驗證並編譯本機字典，**不會自行產生未知英文的翻譯，也不會把舊補丁套到未知 App**。新增字串需補進字典後重新整合。沒有全文快取、外送翻譯或公開 HTTP 服務。
 
-## 安裝
+## 尚未完成
 
-```bash
-git clone https://github.com/JNSlayer2/claude-translation-tw.git
-cd claude-translation-tw
-npm install
-bash scripts/install.sh
-```
-
-`install.sh` 會自動把 runtime 複製到 `$HOME/.local/share/claude-tw`，並用安全工作目錄啟動 proxy / helper / Claude main process，避免從 `Documents` 等受保護目錄繼承 `cwd` 而觸發 `EPERM: uv_cwd`。
-
-安裝程式會把 runtime 檔案複製到：
-
-- `$HOME/.local/share/claude-tw`
-- `$HOME/Applications/ClaudeTW.app`
-- `$HOME/Library/LaunchAgents/com.layer2.claude-tw.wake.plist`
-
-接著會在本機補丁並重新簽章 `/Applications/Claude.app`。
-
-## 下載
-
-這個 repo 已設為 Public，所有人都可以下載。
-
-- GitHub 頁面：[JNSlayer2/claude-translation-tw](https://github.com/JNSlayer2/claude-translation-tw)
-- 直接下載 ZIP：[Download ZIP](https://github.com/JNSlayer2/claude-translation-tw/archive/refs/heads/main.zip)
-- Releases 下載頁：[Releases](https://github.com/JNSlayer2/claude-translation-tw/releases)
+- 「更新」目前只支援檢查、下載驗證及暫存，**尚未提供安裝新版本**；缺少可信本機設定或公開 Release 時會明確停止。
+- 全頁實機翻譯驗收尚未完成；示範影片內嵌的英文也不會由 DOM 字典翻譯。
+- 修改官方 App 後的本機重簽不保留官方簽章身分。現場已遇到 Claude 官方更新的簽章驗證失敗，**尚未修復，沒有關閉安全驗證**。`codesign --verify` 通過不代表仍是官方簽章。
+- 既有完整封存基準已含舊版 TW 注入，不能作為乾淨官方安裝來源。macOS 鑰匙圈重新授權必須由使用者自行處理；合成測試的 mock keychain 不能用於正式 App。
 
 ## 驗證
 
-```bash
-bash scripts/diag.sh
-bash scripts/verify-launch.sh
+```sh
+npm ci --ignore-scripts
+node --test tests/*.test.mjs
+node tests/browser.mjs   # 隔離 Chromium profile，含第一繪製影格驗證
+node tests/electron.mjs  # 單一暫存 App／合成畫面，不用真實登入資料
 ```
 
-你應該會看到：
+`tests/electron.mjs` 僅在合成測試把允許來源換成 data URL；產品限定兩個正式 HTTPS origin。測試產物與來源／App 證據不進 Git。
 
-- `codesign` 驗證通過
-- `CLAUDE_TW_PRELOAD_V1`、`CLAUDE_TW_MAIN_INJECT_V1`、`CLAUDE_TW_COWORK_SUPPORT_V1`、`CLAUDE_TW_COWORK_VM_V1` 都各出現一次
-- proxy health 通過：`http://127.0.0.1:9223/health`
-- `verify-launch.sh` 冷啟動後沒有新的 `launch-failure.err`
+## 本機安裝流程
 
-如果首次啟動看到 macOS Keychain 權限提示，這是重新簽章後的正常一次性授權流程，不是先前那個 `Claude Desktop failed to launch` crash dialog。
+舊版 `install.sh` 的強制停止、直接覆寫與擴大權限流程已停用。此工作分支只支援已審查的既有 ClaudeTW 基準，不是通用公開安裝器。
 
-## 還原
+1. `scripts/patch-asar.mjs INPUT_ASAR NEW_OUTPUT_ASAR` 建置候選，保留未封裝檔案、連結與完整性資訊。輸入 hash 或主視圖邊界不符即拒絕。
+2. `scripts/local-candidate.py` 建立一份候選、僅重簽外層，核對原有權限、原生框架及未改檔案。
+3. 原始碼／測試／候選由另一引擎複審，執行 `bash scripts/build-helper.sh` 編譯小工具後，正常關閉 Claude 與 ClaudeTW。
+4. `scripts/local-install.py --install-reviewed` 驗證收據、備份 runtime／小工具、交換完整 App，建置字典。程式不關閉或強制停止任何 App。
+5. 重新開啟後親自檢查實際畫面。`bash scripts/diag.sh` 是唯讀診斷。
 
-```bash
-bash scripts/restore.sh
-```
+現用 App 原本即為舊版本機重簽安裝；本次不新增 Cowork 權限檢查繞過、不改登入或 Keychain、不改安全熔絲、不修改原生 framework。重簽後若 macOS 詢問鑰匙圈，必須由使用者本人處理。
 
-patcher 會把 `app.asar` 與 `Info.plist` 備份在 `$HOME/.local/share/claude-tw/backups/`。
+還原使用安裝封存的 `RESTORE.md`、完整 App 備份和 runtime 壓縮包；不再使用舊的局部 ASAR 還原腳本。
 
-## 注意事項
-
-Claude 更新後可能會替換 `app.asar`。更新 Claude 後請重新執行：
-
-```bash
-bash scripts/install.sh
-bash scripts/verify-launch.sh
-```
-
-這是非官方的本機補丁。只應在你理解並接受「修改並 ad-hoc 簽章本機 app bundle」影響的電腦上使用。
+未推 GitHub、未發布，私有執行資料與官方 App 不入庫。

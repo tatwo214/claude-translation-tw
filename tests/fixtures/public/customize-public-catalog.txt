@@ -1,0 +1,145 @@
+CTW_STATIC_SHAPES:{
+  "route": "/customize/skills",
+  "catalog": [
+    {
+      "text": "From Anthropic",
+      "tag": "SPAN",
+      "cls": "text-caption-medium text-secondary",
+      "role": null,
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex min-w-0 flex-col items-start gap-xs flex-1 max-w-[70ch]"
+      }
+    },
+    {
+      "text": "Data",
+      "tag": "H3",
+      "cls": "m-0 font-voice text-primary text-title-semibold",
+      "role": null,
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex min-w-0 items-center gap-sm"
+      }
+    },
+    {
+      "text": "Query, chart and explain your data — SQL, spreadsheets and dashboards in one place.",
+      "tag": "P",
+      "cls": "m-0 text-body text-secondary",
+      "role": null,
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex min-w-0 flex-col items-start gap-xs flex-1 max-w-[70ch]"
+      }
+    },
+    {
+      "text": "New skills",
+      "tag": "H3",
+      "cls": "m-0 truncate text-heading-semibold text-primary",
+      "role": null,
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex min-w-0 items-baseline"
+      }
+    },
+    {
+      "text": "Deploy, debug, and monitor applications on Render: Synthetic fixture description for public catalogue rendering. This example names no account, project, host, or deployment.",
+      "tag": "SPAN",
+      "cls": "text-pretty mt-[3px] line-clamp-2 text-footnote text-secondary",
+      "role": null,
+      "parent": {
+        "tag": "DIV",
+        "cls": ""
+      }
+    },
+    {
+      "text": "Use this skill when the user wants intellectual understanding. This synthetic catalogue paragraph tests long static descriptions, safe restoration, and isolated rendering without personal data. This synthetic catalogue paragraph tests long static descriptions, safe restoration, and isolated rendering without personal data. This synthetic catalogue paragraph tests long static descriptions, safe restoration, and isolated rendering without personal data. This synthetic catalogue paragraph tests long static descriptions, safe restoration, and isolated rendering without personal data. This synthetic catalogue paragraph tests long static descriptions, safe restoration, and isolated rendering without personal data. This synthetic catalogue paragraph tests long static descriptions, safe restoration, and isolated rendering without personal data. This synthetic catalogue paragraph tests long static descriptions, safe restoration, and isolated rendering without personal data. This synthetic catalogue paragraph tests long static descriptions, safe restoration, and isolated rendering without personal data. End of synthetic fixture.",
+      "tag": "SPAN",
+      "cls": "text-pretty mt-[3px] line-clamp-2 text-footnote text-secondary",
+      "role": null,
+      "parent": {
+        "tag": "DIV",
+        "cls": ""
+      }
+    },
+    {
+      "text": "Most installed skills",
+      "tag": "H3",
+      "cls": "m-0 truncate text-heading-semibold text-primary",
+      "role": null,
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex min-w-0 items-baseline"
+      }
+    },
+    {
+      "text": "2.9M installs",
+      "tag": "SPAN",
+      "cls": "",
+      "role": null,
+      "parent": {
+        "tag": "SPAN",
+        "cls": ""
+      }
+    },
+    {
+      "text": "2,859,421 installs across all of Claude",
+      "tag": "SPAN",
+      "cls": "sr-only",
+      "role": null,
+      "parent": {
+        "tag": "SPAN",
+        "cls": ""
+      }
+    },
+    {
+      "text": "Engineering",
+      "tag": "SPAN",
+      "cls": "cds-reset outline-none after:absolute after:inset-0 after:rounded-card after:content-[''] cursor-pointer [scroll-margin-top:var(--list-header-scroll-offset,0px)] [scroll-margin-bottom:var(--customize-page-footer-offset,0px)]",
+      "role": "button",
+      "parent": {
+        "tag": "SPAN",
+        "cls": "truncate"
+      }
+    },
+    {
+      "text": "by Nevo David",
+      "tag": "SPAN",
+      "cls": "block min-w-0 overflow-x-clip text-ellipsis whitespace-nowrap",
+      "role": null,
+      "parent": {
+        "tag": "SPAN",
+        "cls": "min-w-0 truncate text-footnote leading-4 text-muted"
+      }
+    },
+    {
+      "text": "Categories",
+      "tag": "H3",
+      "cls": "m-0 truncate text-heading-semibold text-primary",
+      "role": null,
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex items-baseline justify-between gap-md"
+      }
+    },
+    {
+      "text": "APIs",
+      "tag": "SPAN",
+      "cls": "cds-reset outline-none after:absolute after:inset-0 after:rounded-card after:content-[''] cursor-pointer [scroll-margin-top:var(--list-header-scroll-offset,0px)] [scroll-margin-bottom:var(--customize-page-footer-offset,0px)]",
+      "role": "button",
+      "parent": {
+        "tag": "SPAN",
+        "cls": "min-w-0 flex-1 truncate text-body-medium text-primary"
+      }
+    },
+    {
+      "text": "Files & documents",
+      "tag": "SPAN",
+      "cls": "cds-reset outline-none after:absolute after:inset-0 after:rounded-card after:content-[''] cursor-pointer [scroll-margin-top:var(--list-header-scroll-offset,0px)] [scroll-margin-bottom:var(--customize-page-footer-offset,0px)]",
+      "role": "button",
+      "parent": {
+        "tag": "SPAN",
+        "cls": "min-w-0 flex-1 truncate text-body-medium text-primary"
+      }
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "proposals": [
+    {
+      "id": "application-menu-roles",
+      "needle": "async function eiA(){const e=Or?await M8r():await N8r();return aA.Menu.buildFromTemplate(e)}",
+      "replacement": "async function eiA(){const e=Or?await M8r():await N8r();try{const t=require(\"./claudetw-main.cjs\").snapshot();if(Or&&t&&t.schema===2&&t.enabled===true&&t.compatible===true&&t.dictionary&&typeof t.dictionary===\"object\"){const i={\"services\":\"Services\",\"hide\":\"Hide Claude\",\"hideOthers\":\"Hide Others\",\"unhide\":\"Show All\",\"pasteAndMatchStyle\":\"Paste and Match Style\",\"minimize\":\"Minimize\",\"front\":\"Bring All to Front\"};for(const r of [e[0],e[2],e.find(n=>n&&n.role===\"window\")])if(r&&Array.isArray(r.submenu))for(const n of r.submenu)if(n&&Object.prototype.hasOwnProperty.call(i,n.role)){const o=i[n.role];if((n.label===void 0||n.label===o)&&Object.prototype.hasOwnProperty.call(t.dictionary,o)){const a=t.dictionary[o];typeof a===\"string\"&&a.length>0&&a.length<=1000&&(n.label=a)}}}}catch{}return aA.Menu.buildFromTemplate(e)}"
+    },
+    {
+      "id": "microphone-before-use-buttons",
+      "needle": "buttons:[\"Open System Settings\",\"Cancel\"]",
+      "replacement": "buttons:[Ee().formatMessage({id:\"claudetw.native.literal.open-system-settings\",defaultMessage:\"Open System Settings\"}),Ee().formatMessage({id:\"claudetw.native.literal.cancel\",defaultMessage:\"Cancel\"})]"
+    },
+    {
+      "id": "microphone-hotkey-buttons",
+      "needle": "buttons:[\"Open System Settings\",\"Open Claude Settings\",\"Cancel\"]",
+      "replacement": "buttons:[Ee().formatMessage({id:\"claudetw.native.literal.open-system-settings\",defaultMessage:\"Open System Settings\"}),Ee().formatMessage({id:\"claudetw.native.literal.open-claude-settings\",defaultMessage:\"Open Claude Settings\"}),Ee().formatMessage({id:\"claudetw.native.literal.cancel\",defaultMessage:\"Cancel\"})]"
+    },
+    {
+      "id": "file-access-consent",
+      "needle": "type:\"question\",buttons:[\"Cancel\",\"Allow\"],defaultId:0,cancelId:0,title:\"File Access Request\",message:`Allow Claude to ${g} this file?`,detail:`${t}\n\nThis will allow Claude to ${g} the file${i===\"open\"?\" with your default application\":\"\"}.`",
+      "replacement": "type:\"question\",buttons:[Ee().formatMessage({id:\"claudetw.native.literal.cancel\",defaultMessage:\"Cancel\"}),Ee().formatMessage({id:\"claudetw.native.literal.allow\",defaultMessage:\"Allow\"})],defaultId:0,cancelId:0,title:Ee().formatMessage({id:\"claudetw.native.literal.file-access-title\",defaultMessage:\"File Access Request\"}),message:i===\"read\"?Ee().formatMessage({id:\"claudetw.native.literal.file-preview-question\",defaultMessage:\"Allow Claude to preview this file?\"}):Ee().formatMessage({id:\"claudetw.native.literal.file-open-question\",defaultMessage:\"Allow Claude to open this file?\"}),detail:i===\"read\"?Ee().formatMessage({id:\"claudetw.native.literal.file-preview-detail\",defaultMessage:\"{path}\\n\\nThis will allow Claude to preview the file.\"},{path:t}):Ee().formatMessage({id:\"claudetw.native.literal.file-open-detail\",defaultMessage:\"{path}\\n\\nThis will allow Claude to open the file with your default application.\"},{path:t})"
+    },
+    {
+      "id": "workspace-cleanup-unavailable",
+      "needle": "type:\"warning\",title:\"Cowork workspace disk full\",message:`Cowork's workspace disk is nearly full (${nm(i.freeBytes)} free of ${nm(i.totalBytes)}).`,detail:\"Working files could not be cleaned up automatically.\",buttons:[\"OK\"]",
+      "replacement": "type:\"warning\",title:Ee().formatMessage({id:\"claudetw.native.literal.workspace-disk-full\",defaultMessage:\"Cowork workspace disk full\"}),message:Ee().formatMessage({id:\"claudetw.native.literal.workspace-disk-nearly-full\",defaultMessage:\"Cowork's workspace disk is nearly full ({free} free of {total}).\"},{free:nm(i.freeBytes),total:nm(i.totalBytes)}),detail:Ee().formatMessage({id:\"claudetw.native.literal.workspace-cleanup-unavailable\",defaultMessage:\"Working files could not be cleaned up automatically.\"}),buttons:[Ee().formatMessage({id:\"claudetw.native.literal.ok\",defaultMessage:\"OK\"})]"
+    },
+    {
+      "id": "workspace-cleanup-no-candidates",
+      "needle": "type:\"warning\",title:\"Cowork workspace disk full\",message:`Cowork's workspace disk is nearly full (${nm(i.freeBytes)} free of ${nm(i.totalBytes)}).`,detail:\"No working files can be cleaned up automatically. The space is held by sessions that are currently running or belong to other accounts.\",buttons:[\"OK\"]",
+      "replacement": "type:\"warning\",title:Ee().formatMessage({id:\"claudetw.native.literal.workspace-disk-full\",defaultMessage:\"Cowork workspace disk full\"}),message:Ee().formatMessage({id:\"claudetw.native.literal.workspace-disk-nearly-full\",defaultMessage:\"Cowork's workspace disk is nearly full ({free} free of {total}).\"},{free:nm(i.freeBytes),total:nm(i.totalBytes)}),detail:Ee().formatMessage({id:\"claudetw.native.literal.workspace-cleanup-no-candidates\",defaultMessage:\"No working files can be cleaned up automatically. The space is held by sessions that are currently running or belong to other accounts.\"}),buttons:[Ee().formatMessage({id:\"claudetw.native.literal.ok\",defaultMessage:\"OK\"})]"
+    },
+    {
+      "id": "workspace-cleanup-confirm",
+      "needle": "type:\"warning\",title:\"Cowork workspace disk full\",message:`Cowork's workspace disk is nearly full (${nm(i.freeBytes)} free of ${nm(i.totalBytes)}).`,detail:`These are your largest inactive ${g}:\n\n${a}\n\nCleaning up will free ~${nm(s)} of working files from Claude's workspace. Your session history and output files will remain, but continuing these sessions may result in some unexpected behavior due to missing working files.`,buttons:[\"Clean up\",\"Cancel\"],defaultId:1,cancelId:1",
+      "replacement": "type:\"warning\",title:Ee().formatMessage({id:\"claudetw.native.literal.workspace-disk-full\",defaultMessage:\"Cowork workspace disk full\"}),message:Ee().formatMessage({id:\"claudetw.native.literal.workspace-disk-nearly-full\",defaultMessage:\"Cowork's workspace disk is nearly full ({free} free of {total}).\"},{free:nm(i.freeBytes),total:nm(i.totalBytes)}),detail:Ee().formatMessage({id:\"claudetw.native.literal.workspace-cleanup-detail\",defaultMessage:\"These are your largest inactive {sessionCount, plural, one {session} other {sessions}}:\\n\\n{sessionList}\\n\\nCleaning up will free ~{size} of working files from Claude's workspace. Your session history and output files will remain, but continuing these sessions may result in some unexpected behavior due to missing working files.\"},{sessionCount:o.length,sessionList:a,size:nm(s)}),buttons:[Ee().formatMessage({id:\"claudetw.native.literal.clean-up\",defaultMessage:\"Clean up\"}),Ee().formatMessage({id:\"claudetw.native.literal.cancel\",defaultMessage:\"Cancel\"})],defaultId:1,cancelId:1"
+    },
+    {
+      "id": "workspace-session-row",
+      "needle": "a=o.map(u=>{const d=u.archived?\" (archived)\":\"\",B=AGr(r-u.modTime);return`  • ${u.title}${d} — ${nm(u.sizeBytes)}, last used ${B}`})",
+      "replacement": "a=o.map(u=>{const d=u.archived?Ee().formatMessage({id:\"claudetw.native.literal.archived-suffix\",defaultMessage:\" (archived)\"}):\"\",B=AGr(r-u.modTime);returnEe().formatMessage({id:\"claudetw.native.literal.cleanup-session-row\",defaultMessage:\"  • {title}{archived} — {size}, last used {relativeTime}\"},{title:u.title,archived:d,size:nm(u.sizeBytes),relativeTime:B})})"
+    },
+    {
+      "id": "workspace-relative-time",
+      "needle": "function AGr(e){if(e<0)return\"just now\";const A=Math.floor(e/86400);if(A>=1)return A===1?\"1 day ago\":`${A} days ago`;const t=Math.floor(e/3600);if(t>=1)return t===1?\"1 hour ago\":`${t} hours ago`;const i=Math.floor(e/60);return i<=1?\"just now\":`${i} minutes ago`}",
+      "replacement": "function AGr(e){if(e<0)return Ee().formatMessage({id:\"claudetw.native.literal.relative-now\",defaultMessage:\"just now\"});const A=Math.floor(e/86400);if(A>=1)return A===1?Ee().formatMessage({id:\"claudetw.native.literal.relative-one-day\",defaultMessage:\"1 day ago\"}):Ee().formatMessage({id:\"claudetw.native.literal.relative-days\",defaultMessage:\"{count} days ago\"},{count:A});const t=Math.floor(e/3600);if(t>=1)return t===1?Ee().formatMessage({id:\"claudetw.native.literal.relative-one-hour\",defaultMessage:\"1 hour ago\"}):Ee().formatMessage({id:\"claudetw.native.literal.relative-hours\",defaultMessage:\"{count} hours ago\"},{count:t});const i=Math.floor(e/60);return i<=1?Ee().formatMessage({id:\"claudetw.native.literal.relative-now\",defaultMessage:\"just now\"}):Ee().formatMessage({id:\"claudetw.native.literal.relative-minutes\",defaultMessage:\"{count} minutes ago\"},{count:i})}"
+    },
+    {
+      "id": "artifact-run-scheduled-task",
+      "needle": "r={type:\"question\",message:`Allow \"${i}\" to run a scheduled task?`,detail:`The live artifact \"${i}\" wants to run the scheduled task \"${A}\".`,buttons:[\"Run\",\"Cancel\"],defaultId:1,cancelId:1,checkboxLabel:\"Don't ask again for this task\",checkboxChecked:!1}",
+      "replacement": "r={type:\"question\",message:Ee().formatMessage({id:\"claudetw.native.literal.artifact-run-task-question\",defaultMessage:\"Allow \\\"{artifact}\\\" to run a scheduled task?\"},{artifact:i}),detail:Ee().formatMessage({id:\"claudetw.native.literal.artifact-run-task-detail\",defaultMessage:\"The live artifact \\\"{artifact}\\\" wants to run the scheduled task \\\"{task}\\\".\"},{artifact:i,task:A}),buttons:[Ee().formatMessage({id:\"claudetw.native.literal.run\",defaultMessage:\"Run\"}),Ee().formatMessage({id:\"claudetw.native.literal.cancel\",defaultMessage:\"Cancel\"})],defaultId:1,cancelId:1,checkboxLabel:Ee().formatMessage({id:\"claudetw.native.literal.task-dont-ask-again\",defaultMessage:\"Don't ask again for this task\"}),checkboxChecked:!1}"
+    },
+    {
+      "id": "artifact-connector-consent",
+      "needle": "r={type:\"warning\",message:`Allow \"${t}\" to run \"${A}\"?`,detail:`The live artifact \"${t}\" wants to call the connector tool \"${A}\", which can modify data. This happened without a click or keypress from you.`,buttons:[\"Allow\",\"Cancel\"],defaultId:1,cancelId:1}",
+      "replacement": "r={type:\"warning\",message:Ee().formatMessage({id:\"claudetw.native.literal.artifact-connector-question\",defaultMessage:\"Allow \\\"{artifact}\\\" to run \\\"{tool}\\\"?\"},{artifact:t,tool:A}),detail:Ee().formatMessage({id:\"claudetw.native.literal.artifact-connector-detail\",defaultMessage:\"The live artifact \\\"{artifact}\\\" wants to call the connector tool \\\"{tool}\\\", which can modify data. This happened without a click or keypress from you.\"},{artifact:t,tool:A}),buttons:[Ee().formatMessage({id:\"claudetw.native.literal.allow\",defaultMessage:\"Allow\"}),Ee().formatMessage({id:\"claudetw.native.literal.cancel\",defaultMessage:\"Cancel\"})],defaultId:1,cancelId:1}"
+    },
+    {
+      "id": "resume-session-error-title",
+      "needle": "aA.dialog.showErrorBox(\"Couldn't open session\",s instanceof Error?s.message:String(s))",
+      "replacement": "aA.dialog.showErrorBox(Ee().formatMessage({id:\"claudetw.native.literal.could-not-open-session\",defaultMessage:\"Couldn't open session\"}),s instanceof Error?s.message:String(s))"
+    },
+    {
+      "id": "native-renderer-initial-locale",
+      "needle": "getInitialLocale(){const t=Ee();return{messages:t.messages,locale:t.locale}}",
+      "replacement": "getInitialLocale(){const t=Ee();try{return require(\"./claudetw-main.cjs\").nativeLocale(t)}catch{return{messages:t.messages,locale:t.locale}}}"
+    },
+    {
+      "id": "native-renderer-locale-change",
+      "needle": "const A=u9e().subscribe(t=>{var i;e.isDestroyed()||e.isCrashed()||(i=cde.getDispatcher(e))==null||i.dispatchLocaleChanged(t.locale,t.messages)})",
+      "replacement": "const A=u9e().subscribe(t=>{var i;let r={locale:t.locale,messages:t.messages};try{r=require(\"./claudetw-main.cjs\").nativeLocale(t)}catch{}e.isDestroyed()||e.isCrashed()||(i=cde.getDispatcher(e))==null||i.dispatchLocaleChanged(r.locale,r.messages)})"
+    }
+  ],
+  "proposedLiteralDescriptors": [
+    {
+      "id": "claudetw.native.literal.cancel",
+      "english": "Cancel",
+      "zhTW": "取消"
+    },
+    {
+      "id": "claudetw.native.literal.allow",
+      "english": "Allow",
+      "zhTW": "允許"
+    },
+    {
+      "id": "claudetw.native.literal.ok",
+      "english": "OK",
+      "zhTW": "好"
+    },
+    {
+      "id": "claudetw.native.literal.open-system-settings",
+      "english": "Open System Settings",
+      "zhTW": "開啟系統設定"
+    },
+    {
+      "id": "claudetw.native.literal.open-claude-settings",
+      "english": "Open Claude Settings",
+      "zhTW": "開啟 Claude 設定"
+    },
+    {
+      "id": "claudetw.native.literal.file-access-title",
+      "english": "File Access Request",
+      "zhTW": "檔案存取要求"
+    },
+    {
+      "id": "claudetw.native.literal.file-preview-question",
+      "english": "Allow Claude to preview this file?",
+      "zhTW": "允許 Claude 預覽這個檔案嗎？"
+    },
+    {
+      "id": "claudetw.native.literal.file-open-question",
+      "english": "Allow Claude to open this file?",
+      "zhTW": "允許 Claude 開啟這個檔案嗎？"
+    },
+    {
+      "id": "claudetw.native.literal.file-preview-detail",
+      "english": "{path}\n\nThis will allow Claude to preview the file.",
+      "zhTW": "{path}\n\n這將允許 Claude 預覽這個檔案。"
+    },
+    {
+      "id": "claudetw.native.literal.file-open-detail",
+      "english": "{path}\n\nThis will allow Claude to open the file with your default application.",
+      "zhTW": "{path}\n\n這將允許 Claude 使用你的預設應用程式開啟這個檔案。"
+    },
+    {
+      "id": "claudetw.native.literal.workspace-disk-full",
+      "english": "Cowork workspace disk full",
+      "zhTW": "Cowork 工作區磁碟已滿"
+    },
+    {
+      "id": "claudetw.native.literal.workspace-disk-nearly-full",
+      "english": "Cowork's workspace disk is nearly full ({free} free of {total}).",
+      "zhTW": "Cowork 工作區磁碟即將用盡（總容量 {total}，剩餘 {free}）。"
+    },
+    {
+      "id": "claudetw.native.literal.workspace-cleanup-unavailable",
+      "english": "Working files could not be cleaned up automatically.",
+      "zhTW": "無法自動清理工作檔案。"
+    },
+    {
+      "id": "claudetw.native.literal.workspace-cleanup-no-candidates",
+      "english": "No working files can be cleaned up automatically. The space is held by sessions that are currently running or belong to other accounts.",
+      "zhTW": "沒有可自動清理的工作檔案。空間由仍在執行中或屬於其他帳號的工作階段占用。"
+    },
+    {
+      "id": "claudetw.native.literal.workspace-cleanup-detail",
+      "english": "These are your largest inactive {sessionCount, plural, one {session} other {sessions}}:\n\n{sessionList}\n\nCleaning up will free ~{size} of working files from Claude's workspace. Your session history and output files will remain, but continuing these sessions may result in some unexpected behavior due to missing working files.",
+      "zhTW": "以下是占用空間最大的閒置工作階段：\n\n{sessionList}\n\n清理後將從 Claude 工作區釋放約 {size} 的工作檔案空間。工作階段紀錄與輸出檔案會保留，但繼續這些工作階段時，可能因缺少工作檔案而出現非預期行為。"
+    },
+    {
+      "id": "claudetw.native.literal.clean-up",
+      "english": "Clean up",
+      "zhTW": "清理"
+    },
+    {
+      "id": "claudetw.native.literal.archived-suffix",
+      "english": " (archived)",
+      "zhTW": "（已封存）"
+    },
+    {
+      "id": "claudetw.native.literal.cleanup-session-row",
+      "english": "  • {title}{archived} — {size}, last used {relativeTime}",
+      "zhTW": "  • {title}{archived} — {size}，上次使用：{relativeTime}"
+    },
+    {
+      "id": "claudetw.native.literal.relative-now",
+      "english": "just now",
+      "zhTW": "剛剛"
+    },
+    {
+      "id": "claudetw.native.literal.relative-one-day",
+      "english": "1 day ago",
+      "zhTW": "1 天前"
+    },
+    {
+      "id": "claudetw.native.literal.relative-days",
+      "english": "{count} days ago",
+      "zhTW": "{count} 天前"
+    },
+    {
+      "id": "claudetw.native.literal.relative-one-hour",
+      "english": "1 hour ago",
+      "zhTW": "1 小時前"
+    },
+    {
+      "id": "claudetw.native.literal.relative-hours",
+      "english": "{count} hours ago",
+      "zhTW": "{count} 小時前"
+    },
+    {
+      "id": "claudetw.native.literal.relative-minutes",
+      "english": "{count} minutes ago",
+      "zhTW": "{count} 分鐘前"
+    },
+    {
+      "id": "claudetw.native.literal.artifact-run-task-question",
+      "english": "Allow \"{artifact}\" to run a scheduled task?",
+      "zhTW": "允許「{artifact}」執行排程任務嗎？"
+    },
+    {
+      "id": "claudetw.native.literal.artifact-run-task-detail",
+      "english": "The live artifact \"{artifact}\" wants to run the scheduled task \"{task}\".",
+      "zhTW": "即時成品「{artifact}」要求執行排程任務「{task}」。"
+    },
+    {
+      "id": "claudetw.native.literal.run",
+      "english": "Run",
+      "zhTW": "執行"
+    },
+    {
+      "id": "claudetw.native.literal.task-dont-ask-again",
+      "english": "Don't ask again for this task",
+      "zhTW": "不再詢問這個任務"
+    },
+    {
+      "id": "claudetw.native.literal.artifact-connector-question",
+      "english": "Allow \"{artifact}\" to run \"{tool}\"?",
+      "zhTW": "允許「{artifact}」執行「{tool}」嗎？"
+    },
+    {
+      "id": "claudetw.native.literal.artifact-connector-detail",
+      "english": "The live artifact \"{artifact}\" wants to call the connector tool \"{tool}\", which can modify data. This happened without a click or keypress from you.",
+      "zhTW": "即時成品「{artifact}」要求呼叫可修改資料的連接器工具「{tool}」。這項要求並非由你的點擊或按鍵操作觸發。"
+    },
+    {
+      "id": "claudetw.native.literal.could-not-open-session",
+      "english": "Couldn't open session",
+      "zhTW": "無法開啟工作階段"
+    }
+  ],
+  "roleLabels": [
+    {
+      "role": "services",
+      "english": "Services",
+      "zhTW": "服務"
+    },
+    {
+      "role": "hide",
+      "english": "Hide Claude",
+      "zhTW": "隱藏 Claude"
+    },
+    {
+      "role": "hideOthers",
+      "english": "Hide Others",
+      "zhTW": "隱藏其他"
+    },
+    {
+      "role": "unhide",
+      "english": "Show All",
+      "zhTW": "顯示全部"
+    },
+    {
+      "role": "pasteAndMatchStyle",
+      "english": "Paste and Match Style",
+      "zhTW": "貼上並符合樣式"
+    },
+    {
+      "role": "minimize",
+      "english": "Minimize",
+      "zhTW": "縮小視窗"
+    },
+    {
+      "role": "front",
+      "english": "Bring All to Front",
+      "zhTW": "全部移至最前面"
+    }
+  ]
+}

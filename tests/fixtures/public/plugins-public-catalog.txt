@@ -1,0 +1,105 @@
+CTW_STATIC_SHAPES:{
+  "route": "/customize/plugins",
+  "catalog": [
+    {
+      "text": "From Anthropic",
+      "tag": "SPAN",
+      "cls": "text-caption-medium text-secondary",
+      "role": null,
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex min-w-0 flex-col items-start gap-xs flex-1 max-w-[70ch]"
+      }
+    },
+    {
+      "text": "Data",
+      "tag": "H3",
+      "cls": "m-0 font-voice text-primary text-title-semibold",
+      "role": null,
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex min-w-0 items-center gap-sm"
+      }
+    },
+    {
+      "text": "New plugins",
+      "tag": "H3",
+      "cls": "m-0 truncate text-heading-semibold text-primary",
+      "role": null,
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex min-w-0 items-baseline"
+      }
+    },
+    {
+      "text": "Most installed plugins",
+      "tag": "H3",
+      "cls": "m-0 truncate text-heading-semibold text-primary",
+      "role": null,
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex min-w-0 items-baseline"
+      }
+    },
+    {
+      "text": "2.9M installs",
+      "tag": "SPAN",
+      "cls": "",
+      "role": null,
+      "parent": {
+        "tag": "SPAN",
+        "cls": ""
+      }
+    },
+    {
+      "text": "2,859,421 installs across all of Claude",
+      "tag": "SPAN",
+      "cls": "sr-only",
+      "role": null,
+      "parent": {
+        "tag": "SPAN",
+        "cls": ""
+      }
+    },
+    {
+      "text": "Engineering",
+      "tag": "SPAN",
+      "cls": "cds-reset outline-none after:absolute after:inset-0 after:rounded-card after:content-[''] cursor-pointer [scroll-margin-top:var(--list-header-scroll-offset,0px)] [scroll-margin-bottom:var(--customize-page-footer-offset,0px)]",
+      "role": "button",
+      "parent": {
+        "tag": "SPAN",
+        "cls": "truncate"
+      }
+    },
+    {
+      "text": "by Nevo David",
+      "tag": "SPAN",
+      "cls": "block min-w-0 overflow-x-clip text-ellipsis whitespace-nowrap",
+      "role": null,
+      "parent": {
+        "tag": "SPAN",
+        "cls": "min-w-0 truncate text-footnote leading-4 text-muted"
+      }
+    },
+    {
+      "text": "Categories",
+      "tag": "H3",
+      "cls": "m-0 truncate text-heading-semibold text-primary",
+      "role": null,
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex items-baseline justify-between gap-md"
+      }
+    },
+    {
+      "text": "Build for the Claude Directory",
+      "tag": "SPAN",
+      "cls": "text-body-semibold text-primary",
+      "role": null,
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex flex-col gap-xs"
+      }
+    }
+  ]
+}

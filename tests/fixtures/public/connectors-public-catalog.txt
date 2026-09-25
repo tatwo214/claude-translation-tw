@@ -1,0 +1,75 @@
+CTW_STATIC_SHAPES:{
+  "route": "/customize/connectors",
+  "catalog": [
+    {
+      "text": "Curated by Anthropic",
+      "tag": "SPAN",
+      "cls": "text-caption-medium uppercase tracking-wide text-muted",
+      "role": null,
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex flex-col items-center gap-1"
+      }
+    },
+    {
+      "text": "Claude for legal",
+      "tag": "H2",
+      "cls": "text-title text-primary [text-wrap:balance]",
+      "role": null,
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex flex-col items-center gap-1"
+      }
+    },
+    {
+      "text": "Top connectors",
+      "tag": "H2",
+      "cls": "text-heading-semibold text-primary",
+      "role": null,
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex min-w-0 gap-xs items-center"
+      }
+    },
+    {
+      "text": "Google Drive",
+      "tag": "A",
+      "cls": "cds-reset outline-none after:absolute after:inset-0 after:rounded-card after:content-['']",
+      "role": null,
+      "parent": {
+        "tag": "SPAN",
+        "cls": "block min-w-0 overflow-x-clip text-ellipsis whitespace-nowrap pointer-events-auto"
+      }
+    },
+    {
+      "text": "by Google",
+      "tag": "SPAN",
+      "cls": "block min-w-0 overflow-x-clip text-ellipsis whitespace-nowrap",
+      "role": null,
+      "parent": {
+        "tag": "SPAN",
+        "cls": "min-w-0 truncate text-footnote leading-4 text-muted"
+      }
+    },
+    {
+      "text": "New connectors",
+      "tag": "H2",
+      "cls": "text-heading-semibold text-primary",
+      "role": null,
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex min-h-7 items-center justify-between gap-md"
+      }
+    },
+    {
+      "text": "Build for the Claude Directory",
+      "tag": "SPAN",
+      "cls": "text-body-semibold text-primary",
+      "role": null,
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex flex-col gap-xs"
+      }
+    }
+  ]
+}

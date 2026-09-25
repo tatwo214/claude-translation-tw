@@ -1,0 +1,249 @@
+CTW_STATIC_SHAPES:{
+  "shapes": [
+    {
+      "text": "Desktop app version",
+      "parents": [
+        {
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "text-body text-primary",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between gap-lg py-md  ",
+          "role": "group"
+        },
+        {
+          "tag": "DIV",
+          "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+          "role": null
+        },
+        {
+          "tag": "SECTION",
+          "cls": "mb-xl last:mb-0 ",
+          "role": null
+        }
+      ]
+    },
+    {
+      "text": "Run on startup",
+      "parents": [
+        {
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "text-body text-primary",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between gap-lg py-md  group/setting",
+          "role": "group"
+        },
+        {
+          "tag": "DIV",
+          "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+          "role": null
+        },
+        {
+          "tag": "SECTION",
+          "cls": "mb-xl last:mb-0 ",
+          "role": null
+        }
+      ]
+    },
+    {
+      "text": "Quick access shortcut",
+      "parents": [
+        {
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "text-body text-primary",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between gap-lg py-md  group/setting",
+          "role": "group"
+        },
+        {
+          "tag": "DIV",
+          "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+          "role": null
+        },
+        {
+          "tag": "SECTION",
+          "cls": "mb-xl last:mb-0 ",
+          "role": null
+        }
+      ]
+    },
+    {
+      "text": "Voice shortcut",
+      "parents": [
+        {
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "text-body text-primary",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between gap-lg py-md  group/setting",
+          "role": "group"
+        },
+        {
+          "tag": "DIV",
+          "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+          "role": null
+        },
+        {
+          "tag": "SECTION",
+          "cls": "mb-xl last:mb-0 ",
+          "role": null
+        }
+      ]
+    },
+    {
+      "text": "Menu bar",
+      "parents": [
+        {
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "text-body text-primary",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between gap-lg py-md  group/setting",
+          "role": "group"
+        },
+        {
+          "tag": "DIV",
+          "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+          "role": null
+        },
+        {
+          "tag": "SECTION",
+          "cls": "mb-xl last:mb-0 ",
+          "role": null
+        }
+      ]
+    },
+    {
+      "text": "Keep computer awake",
+      "parents": [
+        {
+          "tag": "SPAN",
+          "cls": "settings-row-title inline-block align-top",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "text-body text-primary",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between gap-lg py-md  group/setting",
+          "role": "group"
+        },
+        {
+          "tag": "DIV",
+          "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+          "role": null
+        },
+        {
+          "tag": "SECTION",
+          "cls": "mb-xl last:mb-0 ",
+          "role": null
+        }
+      ]
+    },
+    {
+      "text": "Learn more",
+      "parents": [
+        {
+          "tag": "A",
+          "cls": "cds-reset cds-text-link cds-text-link-underline inline cursor-pointer",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "text-body text-muted",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex min-w-0 flex-1 flex-col justify-center gap-1",
+          "role": null
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between gap-lg py-md  ",
+          "role": "group"
+        },
+        {
+          "tag": "DIV",
+          "cls": "settings-group-dividers [&>:not([role=group]):not([data-cds=DataTable]):not([role=treegrid]):not([data-settle-slot])]:py-md",
+          "role": null
+        },
+        {
+          "tag": "SECTION",
+          "cls": "mb-xl last:mb-0 ",
+          "role": null
+        }
+      ]
+    }
+  ]
+}

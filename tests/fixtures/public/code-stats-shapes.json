@@ -1,0 +1,21 @@
+{
+  "route": "/epitaxy",
+  "shapes": [
+    {
+      "tag": "SPAN",
+      "cls": "tabular-nums text-primary truncate text-body-semibold",
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex flex-col gap-0.5 p-xs rounded-[5px] bg-alpha-2"
+      }
+    },
+    {
+      "tag": "SPAN",
+      "cls": "text-caption text-muted pt-[4px]",
+      "parent": {
+        "tag": "DIV",
+        "cls": "flex flex-col gap-xs"
+      }
+    }
+  ]
+}

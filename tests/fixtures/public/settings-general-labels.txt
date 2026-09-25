@@ -1,0 +1,81 @@
+CTW_STATIC_SHAPES:{
+  "labels": [
+    {
+      "text": "Theme",
+      "tag": "SPAN",
+      "section": "",
+      "group": "",
+      "cls": "settings-row-title inline-block align-top"
+    },
+    {
+      "text": "Chat font",
+      "tag": "SPAN",
+      "section": "",
+      "group": "",
+      "cls": "settings-row-title inline-block align-top"
+    },
+    {
+      "text": "Motion",
+      "tag": "SPAN",
+      "section": "",
+      "group": "",
+      "cls": "settings-row-title inline-block align-top"
+    },
+    {
+      "text": "Language",
+      "tag": "SPAN",
+      "section": "",
+      "group": "",
+      "cls": "settings-row-title inline-block align-top"
+    },
+    {
+      "text": "Style",
+      "tag": "SPAN",
+      "section": "",
+      "group": "",
+      "cls": "settings-row-title inline-block align-top"
+    },
+    {
+      "text": "Speed",
+      "tag": "SPAN",
+      "section": "",
+      "group": "",
+      "cls": "settings-row-title inline-block align-top"
+    },
+    {
+      "text": "Response completions",
+      "tag": "SPAN",
+      "section": "",
+      "group": "",
+      "cls": "settings-row-title inline-block align-top"
+    },
+    {
+      "text": "Scheduled tasks",
+      "tag": "SPAN",
+      "section": "",
+      "group": "",
+      "cls": "settings-row-title inline-block align-top"
+    },
+    {
+      "text": "Code notifications",
+      "tag": "SPAN",
+      "section": "",
+      "group": "",
+      "cls": "settings-row-title inline-block align-top"
+    },
+    {
+      "text": "Emails from Claude Code cloud sessions",
+      "tag": "SPAN",
+      "section": "",
+      "group": "",
+      "cls": "settings-row-title inline-block align-top"
+    },
+    {
+      "text": "Dispatch messages",
+      "tag": "SPAN",
+      "section": "",
+      "group": "",
+      "cls": "settings-row-title inline-block align-top"
+    }
+  ]
+}

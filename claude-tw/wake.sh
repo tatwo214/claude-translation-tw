@@ -1,116 +1,86 @@
 #!/bin/zsh
-set -u
+set -eu
 
-HOME_DIR="${HOME}"
-SHARE_DIR="${HOME_DIR}/.local/share/claude-tw"
+# The compatibility path is a symlink into the real, relocatable project runtime.
+SHARE_DIR="${HOME}/.local/share/claude-tw"
+if [[ -d "${SHARE_DIR}" ]]; then
+  SHARE_DIR="$(cd -- "${SHARE_DIR}" && pwd -P)"
+fi
 STATE_PATH="${SHARE_DIR}/state.json"
-SERVE_PATH="${SHARE_DIR}/serve.mjs"
-HELPER_APP="${HOME_DIR}/Applications/ClaudeTW.app"
-HELPER_BIN="${HELPER_APP}/Contents/MacOS/ClaudeTW"
-CLAUDE_BIN="/Applications/Claude.app/Contents/MacOS/Claude"
-LOG_PATH="/tmp/claude-tw-serve.log"
-WAKE_LOG="/tmp/claude-tw-wake.log"
-HELPER_AUTO_LAUNCH="${CLAUDE_TW_AUTO_HELPER:-0}"
-
-log() {
-  /bin/mkdir -p "$(/usr/bin/dirname "${WAKE_LOG}")"
-  /bin/echo "$(/bin/date '+%Y-%m-%d %H:%M:%S') $*" >> "${WAKE_LOG}"
-}
-
-proxy_alive() {
-  /usr/bin/curl -fsS --max-time 1 http://127.0.0.1:9223/health >/dev/null 2>&1
-}
-
-state_enabled() {
-  [[ -f "${STATE_PATH}" ]] && /usr/bin/grep -q '"enabled"[[:space:]]*:[[:space:]]*true' "${STATE_PATH}"
-}
+HELPER_APP="${SHARE_DIR:h}/ClaudeTW.app"
+[[ -d "${HELPER_APP}" ]] || HELPER_APP="${HOME}/Applications/ClaudeTW.app"
+HELPER_AUTO_LAUNCH="${CLAUDE_TW_AUTO_HELPER:-1}"
 
 claude_running() {
   /usr/bin/pgrep -x "Claude" >/dev/null 2>&1
 }
 
-helper_running() {
-  /usr/bin/pgrep -x "ClaudeTW" >/dev/null 2>&1
+wake_helper() {
+  [[ "${HELPER_AUTO_LAUNCH}" == "1" ]] || return 0
+  /usr/bin/pgrep -x "ClaudeTW" >/dev/null 2>&1 && return 0
+  if [[ ! -d "${HELPER_APP}" ]]; then
+    print -u2 -- "ClaudeTW helper not found: ${HELPER_APP}"
+    return 1
+  fi
+  /usr/bin/open -g "${HELPER_APP}"
 }
 
 write_enabled_state() {
-  /bin/mkdir -p "${SHARE_DIR}"
-  /bin/date -u +"%Y-%m-%dT%H:%M:%SZ" | /usr/bin/awk '{printf "{\"enabled\":true,\"proxyPort\":9223,\"targetLanguage\":\"zh-TW\",\"updatedAt\":\"%s\"}\n", $0}' > "${STATE_PATH}"
-}
-
-start_proxy_if_needed() {
-  if proxy_alive; then
-    return 0
-  fi
-  /bin/mkdir -p "${SHARE_DIR}"
-  /usr/bin/touch "${LOG_PATH}"
-  local node_bin
-  node_bin="$({ /usr/bin/command -v node || true; } 2>/dev/null)"
+  local node_bin="${commands[node]:-}"
   if [[ -z "${node_bin}" ]]; then
-    for candidate in /opt/homebrew/bin/node /usr/local/bin/node; do
-      if [[ -x "${candidate}" ]]; then
-        node_bin="${candidate}"
-        break
-      fi
+    local candidate
+    for candidate in /opt/homebrew/bin/node /usr/local/bin/node /usr/bin/node; do
+      if [[ -x "${candidate}" ]]; then node_bin="${candidate}"; break; fi
     done
   fi
   if [[ -z "${node_bin}" ]]; then
-    log "node not found"
+    print -u2 -- "Node.js not found; state unchanged"
     return 1
   fi
-  (
-    cd "${HOME_DIR}" || exit 1
-    /usr/bin/nohup "${node_bin}" "${SERVE_PATH}" >> "${LOG_PATH}" 2>&1 &
-  )
+  "${node_bin}" --input-type=module - "${STATE_PATH}" <<'NODE'
+import fs from 'node:fs';
+import path from 'node:path';
+import { randomUUID } from 'node:crypto';
+const file = process.argv[2];
+let state = {};
+let mode = 0o600;
+try {
+  state = JSON.parse(fs.readFileSync(file, 'utf8'));
+  if (!state || Array.isArray(state) || typeof state !== 'object') {
+    throw new Error('state.json must be an object; left unchanged');
+  }
+  mode = fs.statSync(file).mode & 0o777;
+} catch (error) {
+  if (error.code !== 'ENOENT') throw error;
 }
-
-wake_helper() {
-  if [[ "${HELPER_AUTO_LAUNCH}" != "1" ]]; then
-    log "helper auto launch disabled"
-    return 0
-  fi
-  if helper_running; then
-    log "helper already running"
-    return 0
-  fi
-  log "starting helper binary"
-  (
-    cd "${HOME_DIR}" || exit 1
-    /usr/bin/nohup "${HELPER_BIN}" >> /tmp/claude-tw-helper.log 2>&1 &
-  )
+state.enabled = true;
+state.updatedAt = new Date().toISOString();
+fs.mkdirSync(path.dirname(file), { recursive: true });
+const temporary = `${file}.${randomUUID()}.tmp`;
+try {
+  fs.writeFileSync(temporary, `${JSON.stringify(state)}\n`, { flag: 'wx', mode });
+  fs.renameSync(temporary, file);
+} finally {
+  fs.rmSync(temporary, { force: true });
 }
-
-start_claude_if_needed() {
-  if claude_running; then
-    log "Claude already running"
-    return 0
-  fi
-  log "starting Claude binary"
-  (
-    cd "${HOME_DIR}" || exit 1
-    /usr/bin/nohup "${CLAUDE_BIN}" >> /tmp/claude-tw-claude.log 2>&1 &
-  )
+NODE
 }
 
 case "${1:-wake}" in
   --if-claude-running)
-    if ! claude_running; then
-      log "Claude not running"
-      exit 0
-    fi
-    log "Claude running"
-    state_enabled && start_proxy_if_needed
-    wake_helper
+    # The retained five-second launch agent must never launch Claude itself.
+    if claude_running; then wake_helper; fi
     ;;
   --enable)
-    log "force enable"
     write_enabled_state
-    start_proxy_if_needed
     wake_helper
-    start_claude_if_needed
+    if ! claude_running; then /usr/bin/open /Applications/Claude.app; fi
+    ;;
+  wake)
+    wake_helper
     ;;
   *)
-    state_enabled && start_proxy_if_needed
-    wake_helper
+    print -u2 -- "Usage: wake.sh [wake|--if-claude-running|--enable]"
+    exit 64
     ;;
 esac
